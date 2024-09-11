@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES5",
+    "module": "ESNext",     //commonjs                           
+    "esModuleInterop": true,
+    "moduleResolution": "node", 
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,              
+    "skipLibCheck": true,
+    "allowJs": true,          // JavaScript dosyalarının da derlenmesine izin ver                                 
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "paths": {
+  "../../": ["src/modules/"]
+},
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
